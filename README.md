@@ -48,11 +48,13 @@ Highly recommend doing all of this setup, including the hardware setup, a day or
    - Go to **Scene Collection > Import** and select the generated `meetuprecording.json` file
    - (Optional) If using [Advanced Scene Switcher](https://obsproject.com/forum/resources/advanced-scene-switcher.395/), open the plugin import macros from the `generated/<profile_name>/macros/` folder. Note, you'll have to install the plugin first.
 
-5. **Configure your audio and video sources** in OBS:
+5. **After importing select the imported scene collection and profile**.
 
-Due to the way devices are handlged, you will need to manually select the devices you want to use for the video sources. Unfortunately this also needs to be done **every time you connect the devices**. So, always check this stuff during setup before starting your recording.
+6. **Configure your audio and video sources** in OBS:
 
-Under the "Presenting - main" scene, select all the video sources like presenter screen and logi-webcam, open the properties, and select the correct device for each source.
+- Due to the way devices are handlged, you will need to manually select the devices you want to use for the video sources. Unfortunately this also needs to be done **every time you connect the devices**. So, always check this stuff during setup before starting your recording.
+
+- Under the "Presenting - main" scene, select all the video sources like presenter screen and logi-webcam, open the properties, and select the correct device for each source.
 
 ## What Gets Generated
 
